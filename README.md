@@ -24,9 +24,11 @@ or
 2. Send POST request via http://localhost:8080/exchangerates/convert
 Header: application/json
 Request Body: 
+```
 {
     "buyCurrency": "USD",
     "sellCurrency": "PHP",
     "buyAmount": 125,
     "sellAmount": 0
 }
+```
